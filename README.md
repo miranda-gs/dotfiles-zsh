@@ -81,7 +81,7 @@ Passos recomendados:
 
 1. Baixe a fonte no site oficial do [Nerd Fonts](https://www.nerdfonts.com/font-downloads).
 2. Instale-a no Windows clicando duas vezes sobre o arquivo `.ttf` e escolhendo "Instalar".
-3. Abra o Windows Terminal, vá em "⚙️ Configurações", selecione o perfil do Ubuntu/WSL, e ajuste a fonte para "JetBrainsMono Nerd Font".
+3. Abra o Windows Terminal, vá em "⚙️ Configurações", selecione o perfil do Arch, e ajuste a fonte para "JetBrainsMono Nerd Font".
 
 **Assim, os ícones e símbolos aparecerão corretamente no terminal do Windows.**
 
