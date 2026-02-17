@@ -43,7 +43,25 @@ O Zinit não está nos repositórios oficiais. Instale utilizando o comando ofic
 sh -c "$(curl -fsSL https://git.io/zinit-install)"
 ```
 
-### 🖋️ Instalando a JetBrains Nerd Font Mono
+### � Plugins carregados pelo Zinit
+
+A configuração presente em `~/.zshrc` carrega os seguintes plugins (via `zinit`) e annexes — cada um com uma função breve:
+
+- **⚡ fast-syntax-highlighting** (`zdharma-continuum/fast-syntax-highlighting`) — realce de sintaxe em tempo real enquanto você digita, ajudando a detectar erros rapidamente.
+- **🔎 history-search-multi-word** (`zdharma-continuum/history-search-multi-word`) — pesquisa no histórico por múltiplas palavras/fragmentos (mais flexível que a busca simples).
+- **💡 zsh-autosuggestions** (`zsh-users/zsh-autosuggestions`) — sugestões automáticas de comandos baseadas no histórico (aceite com →).
+- **📚 zsh-completions** (`zsh-users/zsh-completions`) — completions adicionais para muitas ferramentas que não têm suporte nativo.
+- **🎨 powerlevel10k** (`romkatv/powerlevel10k`) — tema de prompt rápido e altamente customizável (execute `p10k configure` para ajustar).
+
+- **🧩 Annexes do Zinit** (carregados em `light-mode`) — suporte interno/auxiliar do Zinit:
+  - `zinit-annex-as-monitor` — suporte a execução/monitoramento assíncrono de tarefas do Zinit.
+  - `zinit-annex-bin-gem-node` — helpers para instalar bins, gems (Ruby) e pacotes Node quando necessário.
+  - `zinit-annex-patch-dl` — aplica correções/ajustes no processo de download quando requerido.
+  - `zinit-annex-rust` — suporte a integrações/compilações relacionadas a ferramentas escritas em Rust.
+
+> Dica: para modificar a lista de plugins edite `~/.zshrc` e depois rode `source ~/.zshrc` ou abra um novo terminal. ✨
+
+### �🖋️ Instalando a JetBrains Nerd Font Mono
 
 No Arch Linux, a JetBrains Nerd Font Mono pode ser instalada pelo AUR (Arch User Repository) usando, por exemplo, o `yay`:
 
