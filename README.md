@@ -73,4 +73,8 @@ Passos recomendados:
 
 Após seguir os passos acima, você já pode importar seu arquivo `~/.zshrc` e aproveitar os recursos do seu ambiente personalizado! ✨
 
+![resultado final ao importar o ~/.zshrc](img/printscreen.png)
+
+*resultado final ao importar o ~/.zshrc*
+
 ---
