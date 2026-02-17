@@ -8,7 +8,7 @@ Antes de importar e utilizar seu arquivo `~/.zshrc`, é importante garantir que 
   Ferramenta para exibir informações do sistema no terminal.
 
 - **🐱 fastcat**  
-  Utilitário para visualização rápida de arquivos no terminal.
+  Framework para alterar imagem exibida no fastfetch.
 
 - **🌐 curl**  
   Ferramenta para transferências de dados via linha de comando.
