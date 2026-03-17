@@ -92,3 +92,36 @@ Passos recomendados:
 *resultado final ao importar o ~/.zshrc*
 
 ---
+
+## 🤖 GitHub Copilot Pro — Agentes/Modelos que NÃO consomem tokens premium
+
+No plano **GitHub Copilot Pro** (pago), algumas interações são ilimitadas e **não consomem requisições premium** (tokens). As demais utilizam um multiplicador e debitam do saldo mensal de requisições premium.
+
+### ✅ Modelos incluídos (sem custo de tokens premium)
+
+Os seguintes modelos estão **incluídos** no plano pago e **não consomem nenhuma requisição premium**:
+
+| Modelo | Custo de token premium |
+|--------|------------------------|
+| **GPT-5 mini** | ✅ Nenhum |
+| **GPT-4.1** | ✅ Nenhum |
+| **GPT-4o** | ✅ Nenhum |
+
+> 📌 Fonte: [GitHub Docs — About premium requests](https://docs.github.com/en/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests)
+
+### 💰 Modelos premium (consomem tokens)
+
+Modelos mais avançados utilizam um **multiplicador** sobre o saldo de requisições premium. Exemplos:
+
+| Modelo | Multiplicador |
+|--------|---------------|
+| Claude Sonnet 4 | 1× |
+| Claude Opus 4.5 | 3× |
+| Gemini 2.5 Pro | 1× |
+| o3 | variável |
+
+### 💡 Dica
+
+Se você esgotou seu saldo mensal de requisições premium, ainda pode usar o Copilot normalmente com os modelos incluídos (**GPT-5 mini**, **GPT-4.1** e **GPT-4o**) até o próximo ciclo de cobrança.
+
+---
